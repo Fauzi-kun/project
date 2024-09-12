@@ -8,7 +8,7 @@
 .wrapper{
     margin: auto;
     padding: 36px;
-    width: 300px;
+    width: 590px;
     border: 1px;
     border-style: solid;
     border-color: #F1F1F1;
@@ -18,19 +18,20 @@
 }
 .wrapper .desc{
     text-align: center;
-    margin: 10px;
+    margin: 10px 10px 20px;
 }
-.wrapper .desc .masukAkun{
+.wrapper .masukAkun{
     font-size: 32px;
     font-weight: 600;
     
 }
-.wrapper .desc .yuk{
+.wrapper .yuk{
     font-size: 16px;
     font-weight: 400px;
 }
 .wrapper button{
-    width: 102%;
+    align-content: center;
+    width: 100%;
     margin: 3px;
 }
 .wrapper .btnMasuk{
@@ -39,7 +40,7 @@
     border-radius: 3px;
     color: #F1F1F1;
     padding: 10px 26px;
-    margin: 8px;
+    margin-bottom: 8px;
 }
 .wrapper .btnDaftar{
     background-color: #E2FCD9CC;
@@ -70,6 +71,30 @@
 .wrapper input{
     width: 100%;
 }
-.wrapper .div{
-    text-align: center;
+.lupa{
+    color: #4A505C;
+    text-align: right;
+    text-decoration: none;
+}
+.passMargin{
+    margin-bottom: 8px;
+    opacity: 15%;
+    height: 30px;
+}
+.passMargin:hover{
+    opacity: 100%;
+}
+.wrapper .hp{
+    width: 100%;
+    margin-bottom: 8px;
+    opacity: 15%;
+    height: 30px;
+}
+.wrapper .hp:hover{
+    opacity: 100%;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
 }
